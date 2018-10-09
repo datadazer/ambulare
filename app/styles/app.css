@@ -1,0 +1,48 @@
+.mountains {
+  position: relative;
+  display: block;
+  bottom: -5px;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+.one, .two, .three, .four, .five {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 105%;
+}
+
+.one {
+  background-image: url('http://mentalsociety.com/wp-content/themes/twentyseventeen/assets/images/mountains-1.svg');
+  z-index: 0;
+}
+
+.two {
+  background-image: url('http://mentalsociety.com/wp-content/themes/twentyseventeen/assets/images/mountains-2.svg');
+  z-index: -1;
+}
+
+.three {
+  background-image: url('http://mentalsociety.com/wp-content/themes/twentyseventeen/assets/images/mountains-3.svg');
+  z-index: -2;
+}
+.four {
+  background-image: url('http://mentalsociety.com/wp-content/themes/twentyseventeen/assets/images/mountains-4.svg');
+  z-index: -3;
+}
+
+.five {
+  background-image: url('http://mentalsociety.com/wp-content/themes/twentyseventeen/assets/images/mountains-5.svg');
+  z-index: -4;
+}
+
+.trails-list {
+  height: 1200px;
+  position:relative;
+  background-color: #182a2d;
+}

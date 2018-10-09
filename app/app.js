@@ -4,6 +4,10 @@ import loadInitializers from 'ember-load-initializers';
 import config from './config/environment';
 
 const App = Application.extend({
+  customEvents: {
+    // add support for the scroll event
+    scroll: 'scroll'
+  },
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver
